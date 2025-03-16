@@ -11,7 +11,7 @@ export default function MainlayoutPage() {
     <div className="flex h-screen">
       <Sidebar isOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
       <div className={`flex-1 transition-all ${isSidebarOpen ? "ml-64" : "ml-0"}`}>
-        <Navbar toggleSidebar={toggleSidebar} />
+        <Navbar  />
         <main className="p-4">
           <Outlet />
         </main>

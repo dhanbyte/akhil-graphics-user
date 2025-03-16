@@ -3,8 +3,9 @@ import { createRoot } from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import '../src/Style/index.css';
 
-import HomePage from './Layout/HomePage';
+
 import MainlayoutPage from './Layout/Mainlayout';
+import AllPage from './Layout/AllPage';
 
 const router = createBrowserRouter([
   {
@@ -13,7 +14,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: <HomePage />, 
+        element: <AllPage />, 
       },
     ],
   },

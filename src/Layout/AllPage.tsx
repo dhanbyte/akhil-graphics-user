@@ -1,4 +1,4 @@
-export default function HomePage() {
+export default function AllPage() {
     return (
       <div className="p-4">
         <h1>Welcome to Akhil Graphics</h1>
