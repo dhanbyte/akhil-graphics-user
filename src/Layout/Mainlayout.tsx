@@ -8,11 +8,17 @@ export default function MainlayoutPage() {
   const toggleSidebar = () => setSidebarOpen(!isSidebarOpen);
 
   return (
-    <div className="flex h-screen">
+    <div className="flex  h-screen">
+     <div className="fixed ">
+
       <Sidebar isOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
-      <div className={`flex-1 transition-all ${isSidebarOpen ? "ml-64" : "ml-0"}`}>
+     </div>
+     
+      <div className={`flex-1 lg:pl-[16%]  transition-all ${isSidebarOpen ? "ml-64" : "ml-0"}`}>
         <Navbar  />
-        <main className="p-4">
+
+          
+        <main className="p-2   lg:p-4">
           <Outlet />
         </main>
       </div>
