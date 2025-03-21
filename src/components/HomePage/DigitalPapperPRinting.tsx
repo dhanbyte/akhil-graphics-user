@@ -13,6 +13,7 @@ export default function DigitalPapperPRinting() {
         
     ];
       
+    
   return (
     <div >
         <h1 className="text-center text-blue-900 text-2xl md:text-3xl lg:text-4xl">Select Category
