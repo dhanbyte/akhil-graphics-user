@@ -12,14 +12,19 @@
                 "link": "/visiting-cards",
                 "dec": "2 Days",
                 "subChildren": [
-                    {
-                        "id": "1001",
-                        "name": "Sub-Child 1"
-                    },
-                    {
-                        "id": "1002",
-                        "name": "Sub-Child 2"
-                    }
+                   {
+                    "id": "101",
+                    "name": "Envelope Printing",
+                    "products": ["Envelopes - 10.75x4.75", "Envelopes - 9x4"],
+                    "paperTypes": ["90 GSM Sunshine Paper", "100 GSM Glossy Paper"],
+                    "windowCuttingOptions": ["Not Required", "Required"],
+                    "flapOpeningOptions": ["Long Opening", "Short Opening"],
+                    "defaultQty": 500,
+                    "cost": 1000,
+                    "image": "https://example.com/envelope.jpg",
+                    "description": "High-quality envelope printing."
+                 
+                   }
                 ]
             },
             {
@@ -32,11 +37,8 @@
                     {
                         "id": "1001",
                         "name": "Sub-Child 1"
-                    },
-                    {
-                        "id": "1002",
-                        "name": "Sub-Child 2"
                     }
+                    
                 ]
             }
         ]

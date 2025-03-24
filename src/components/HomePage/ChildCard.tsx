@@ -1,5 +1,5 @@
 import { Link, useParams } from "react-router-dom";
-import { useData } from "../HomePage/DataContext"; // ✅ Use Context API
+import { useData } from "./DataContext"; // ✅ Use Context API
 
 const ChildCard = () => {
   const { data } = useData();

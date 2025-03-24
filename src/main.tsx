@@ -3,7 +3,7 @@ import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "../src/Style/index.css";
 import MainlayoutPage from "./Layout/Mainlayout";
-import { DataProvider } from "../src/components/HomePage/DataContext"; // ✅ Context Import
+import { DataProvider } from "./components/HomePage/DataContext"; // ✅ Context Import
 
 import ChildCard from "./components/HomePage/ChildCard";
 import ParentCard from "./Layout/ParentCard";
